@@ -1,0 +1,52 @@
+.header{
+    color:white;
+    font-weight: bold;
+    letter-spacing:2px;
+}
+.header h1{
+    font-size:35px;
+    background-color:#424242;
+    border-radius:40px;
+    box-shadow:   0px 0px 40px -10px #121212;
+}
+.title{
+    display:flex;
+    justify-content:center;
+    
+}
+.card{
+    background-color:white;
+    color:black;
+    border-radius: 30px;
+    box-shadow:   10px 10px 34px 1px #121212;
+    margin-bottom: 20px;
+}
+label{
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+input[type=text]{
+    border-radius:20px;
+    border:2px solid #424242;
+}
+textarea.form-control{
+    border-radius:30px;
+    border:2px solid #424242;
+}
+input[type=datetime-local].form-control{
+    border-radius:20px;
+    border:2px solid #424242;
+}
+.btn{
+    background-color:#1a1a1b;
+    font-size: 20px;
+    border-radius:20px;
+    letter-spacing:2px;
+}
+#btn1{
+    background-color:#B71C1C;
+    letter-spacing:2px;
+    color: white;
+    font-weight: bold;
+}

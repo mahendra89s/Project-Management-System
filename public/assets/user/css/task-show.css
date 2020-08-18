@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.header{
+    background-color:#424242;
+    color:white;
+    max-width: 100%;
+    font-size:50px;
+    font-weight: bold;
+    border-radius:40px;
+    box-shadow: 0 10px 10px -5px black;
+    letter-spacing:2px;
+    
+}
+.head{
+    position: relative;
+}
+.addbtn{
+    position:absolute;
+    right:10%;
+    top:0;
+    margin-left:20px;
+    margin-top:25px;
+    color:white;
+    letter-spacing:2px;
+    
+}
+.addbtn a{
+    border-radius: 20px;
+    font-weight: bold;
+    font-size:20px;
+    padding:5px 20px;
+    
+}
+.addbtn a:hover .fa-plus{
+    transition: 0.9s;
+    transform: rotateZ(180deg);
+    
+}
+.card{
+    background-color:#BDBDD7;
+    color:black;
+    border-radius: 20px;
+    /* box-shadow:   10px 10px 34px 1px #121212; */
+    margin-bottom: 20px;
+}
+.card:hover{
+    box-shadow:0px 32px 27px -16px rgba(0,0,0,0.75);
+    transform: scale(1.01,1.01);
+    transition: all 0.2s ease;
+}
+.prjname{
+    background-color:#424242;
+    color:white;
+    float: left;
+    clear: left;
+    border-radius: 20px;
+}
+
+.prjdetails{
+    background-color:#646566;
+    color:white;
+    float: left;
+    clear: left;
+    border-radius: 20px;
+} 
+.status{
+    float: left;
+    clear: left;
+    
+}
+.status a{
+    background-color:#3A4164;
+    color:white;
+    border-radius: 20px;
+    cursor: default !important;
+}
+#btn1{
+    background-color:#BF360C;
+    cursor: pointer;
+}
+.status a:hover{
+    color:white;
+}
+.sidedetails{
+    
+    background-color:#212121;
+    border-radius: 25px;
+    padding-top:15px;
+}
+.startdate{
+    color:white;
+    background-color:#4f5b62;
+    font-size:17px;
+    margin:0 10px;
+    border-radius: 20px;
+    padding:0 12px;
+    display: flex;
+    flex-direction:column;
+}
+.startdate p{
+    font-size: 17px;
+    margin-bottom: 0;
+}
+.completed{
+    color:white;
+    background-color:#4f5b62;
+    font-size:17px;
+    margin:10px 10px;
+    border-radius: 20px;
+    padding:0 12px;
+    display: flex;
+    flex-direction:column;
+}
+.completed p{
+    font-size: 17px;
+    margin-bottom: 0;
+}
+#edit{
+    background-color:#d84315;
+    border-radius: 20px;
+    color:white;
+    letter-spacing:2px;
+    font-weight: bold;
+    margin:10px 10px;
+   
+}
+#delete{
+    background-color:#004c40;
+    border-radius: 20px;
+    color:white;
+    letter-spacing:2px;
+    font-weight: bold;
+    margin:10px 10px;
+   float:right;
+}
